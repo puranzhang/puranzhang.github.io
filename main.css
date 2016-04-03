@@ -1,56 +1,66 @@
 html, body {
-  font-family: sans-serif;
+  height: 100%;
+  width: 100%;
   margin: 0;
-  width: 100%;
-  height: 100%;
+  padding: 0;
+  color: lightgrey;
+  font-family: Helvetica, Arial, Sans-serif;
 }
 
-h1 {
-  font-size: 48px;
-}
-
-p {
-  max-width: 65%;
-  min-width: 500px;
-}
-
-h2 {
-  text-align: center;
-  font-size: 2.6rem;
-}
-
-div {
-  padding-right: 30px;
-  height: 100%;
-  width: 100%;
-}
-
-video {
-  background-color: #000000;
-  border: 2px solid black;
+a {
+  text-decoration: none;
+  color: red;
 }
 
 .container {
   display: flex;
+  margin: 0 10%;
+  height: 100%;
+  min-width: 320px;
+  max-width: 500px;
+  align-items: center;
 }
 
-.main {
-  padding-left: 30px;
-  min-width: 75%;
+h1 {
+  margin: 0;
+  color: lightgrey;
+  font-size: 3.2rem;
+  display: block;
 }
 
-.nav {
-  background-color: #FFEE00;
-  max-width: 25%;
-  min-width: 140px;
-  flex: 1;
+.social-container .fa {
+  font-size: 1.4rem;
+  margin: 0 1rem;
+  opacity: 0.2;
 }
 
-.nav h1 {
-  padding-left: 20px;
+.social-container .fa:hover {
+  opacity: 0.5;
 }
 
+.social-container .fa:first-child {
+  margin-left: 0.5rem;
+}
 
+@media (min-width: 320px) {
 
+  h1 {
+    font-size: 16vw;
+  }
 
+  .social-container .fa {
+    font-size: 7vw;
+    margin: 0 1rem;
+    opacity: 0.2;
+  }
+}
 
+@media (min-width: 600px) {
+  h1 {
+    font-size: 6rem;
+  }
+
+  .social-container .fa {
+    font-size: 2.65rem;
+  }
+}
