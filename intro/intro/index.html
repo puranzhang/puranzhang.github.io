@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script type="text/javascript" src="jquery.js"></script>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Puran Zhang</title>
+  <link rel="stylesheet" href="/assets/site.css?t=1450775550">
+  <link rel="stylesheet" href="/assets/font.css?t=1437645997">
+  
+<style>
+button {
+     background:none!important;
+     border:none; 
+     padding:0!important;
+     font: inherit;
+     /*border is optional*/
+     border-bottom:1px solid #444; 
+     cursor: pointer;
+}
+</style>
+
+<script>
+function purePlay(){
+	$('#introTwo').empty();
+	if($('#introduction:contains("休闲玩家")').length > 0){
+		$("#introduction").empty();
+		$('#purePlay').html("我是纯休闲玩家，没太多想法。");
+	} else{
+		 if($('#eventTable tr > td:contains("抓")').length > 0){
+			$('#pokeDex').html("我想尽量收集更多的图鉴。");	
+		} else if($('#eventTable tr > td:contains("对战")').length > 0){
+			$('#takeGym').html("我想要<span style='text-decoration:line-through;'>称霸里士满</span>培养强力的精灵和占领道馆。");
+		} else if($('#eventTable tr > td:contains("熏香")').length > 0){
+			$('#useItems').html("我想了解如何合适地使用道具。");
+		}
+		
+		$("#eventTable tr").remove();
+		$("#introduction").empty();
+		
+		$('#introduction').append("<h3>test1</h3>");
+		$('#purePlay').html("隐藏内容");
+		
+	}
+}
+
+function pokeDex(){	
+	$('#introTwo').empty();	
+	if($('#eventTable tr > td:contains("抓")').length > 0){
+		$("#introduction").empty();
+		$("#eventTable tr").remove();
+		$('#pokeDex').html("我想尽量收集更多的图鉴。");
+	}else{	
+		if($('#eventTable tr > td:contains("对战")').length > 0){
+			$('#takeGym').html("我想要<span style='text-decoration:line-through;'>称霸里士满</span>培养强力的精灵和占领道馆。");
+		} else if($('#introduction:contains("休闲玩家")').length > 0){
+			$('#purePlay').html("我是纯休闲玩家，没太多想法。");
+		} else if($('#eventTable tr > td:contains("熏香")').length > 0){
+			$('#useItems').html("我想了解如何合适地使用道具。");
+		}
+		
+		$("#introduction").empty();
+		$("#eventTable tr").remove();
+		
+		$('#introduction').append("<h3>test2</h3>");
+
+		$('#eventTable > tbody').append("<tr><td><button input id='pda' type='button' onclick='pda()'>test2.1</button></td></tr><tr><td><button input id='pdb' type='button' onclick='pdb()'>test2.2</button></td></tr><tr><td><button input id='pdc' type='button' onclick='pdc()'>test2.3</button></td></tr><tr><td><button input id='pdd' type='button' onclick='pdd()'>test2.4</button></td></tr><tr><td><button input id='pde' type='button' onclick='pde()'>test2.5</button></td></tr>");
+		
+		$('#pokeDex').html("隐藏2级菜单");
+	}
+}
+	
+function pda(){
+	$('#introTwo').html("<h3>2.1 is me</h3>");
+}	
+
+function pdb(){
+	$('#introTwo').html("<h3>2.2 is me</h3>");
+}
+
+function pdc(){
+	$('#introTwo').html("<h3>2.3 is me</h3>");
+}
+
+function pdd(){
+	$('#introTwo').html("<h3>2.4 is me</h3>");
+}
+
+function pde(){
+	$('#introTwo').html("<h3>2.5 is me</h3>");
+}
+
+function takeGym(){
+	$('#introTwo').empty();	
+	if($('#eventTable tr > td:contains("对战")').length > 0){
+		$("#introduction").empty();
+		$("#eventTable tr").remove();
+		$('#takeGym').html("我想要<span style='text-decoration:line-through;'>称霸里士满</span>培养强力的精灵和占领道馆。");
+	}else{	
+		if($('#eventTable tr > td:contains("抓")').length > 0){
+			$('#pokeDex').html("我想尽量收集更多的图鉴。");
+		} else if($('#introduction:contains("休闲玩家")').length > 0){
+			$('#purePlay').html("我是纯休闲玩家，没太多想法。");
+		} else if($('#eventTable tr > td:contains("熏香")').length > 0){
+			$('#useItems').html("我想了解如何合适地使用道具。");
+		}
+		
+		$("#introduction").empty();
+		$("#eventTable tr").remove();
+		
+		$('#introduction').append("<h3>test3</h3>");
+		
+		$('#eventTable > tbody').append("<tr><td><button input id='tga' type='button' onclick='tga()'>test3.1</button></td></tr><tr><td><button input id='tgb' type='button' onclick='tgb()'>test3.2</button></td></tr><tr><td><button input id='tgc' type='button' onclick='tgc()'>test3.3</button></td></tr><tr><td><button input id='tgd' type='button' onclick='tgd()'>test3.4</button></td></tr>tr><td><button input id='tge' type='button' onclick='tge()'>test3.5</button></td></tr>");
+		
+		$('#takeGym').html("隐藏2级菜单");
+	}
+}
+
+function tga(){
+$('#introTwo').html("<h3>this is 3.1</h3>");
+}
+
+function tgb(){
+$('#introTwo').html("<h3>this is 3.2</h3>");
+}
+
+function tgc(){
+$('#introTwo').html("<h3>this is 3.3</h3>");
+}
+
+function tgd(){
+$('#introTwo').html("<h3>this is 3.4</h3>");
+}
+
+function tge(){
+$('#introTwo').html("<h3>this is 3.5</h3>");
+}
+
+
+function useItems(){	
+	$('#introTwo').empty();
+	if($('#eventTable tr > td:contains("熏香")').length > 0){
+		$("#introduction").empty();
+		$("#eventTable tr").remove();
+		$('#useItems').html("我想了解如何合适地使用道具。");
+	}else{	
+		if($('#eventTable tr > td:contains("抓")').length > 0){
+			$('#pokeDex').html("我想尽量收集更多的图鉴。");
+		} else if($('#introduction:contains("休闲玩家")').length > 0){
+			$('#purePlay').html("我是纯休闲玩家，没太多想法。");
+		} else if($('#eventTable tr > td:contains("对战")').length > 0){
+			$('#takeGym').html("我想要<span style='text-decoration:line-through;'>称霸里士满</span>培养强力的精灵和占领道馆。");
+		}
+		
+		$("#introduction").empty();
+		$("#eventTable tr").remove();
+
+		$('#eventTable > tbody').append("<tr><td><button input id='uia' type='button' onclick='uia()'>test4.1</button></td></tr><tr><td><button input id='uib' type='button' onclick='uib()'>test4.2</button></td></tr><tr><td><button input id='uic' type='button' onclick='uic()'>test4.3</button></td></tr><tr><td><button input id='uid' type='button' onclick='uid()'>test4.4</button></td></tr><tr><td><button input id='uie' type='button' onclick='uie()'>test4.5</button></td></tr>");
+		$('#useItems').html("隐藏2级菜单");
+	}
+}
+
+function uia(){
+$('#introTwo').html("<h3>this is 4.1</h3>");
+}
+
+function uib(){
+$('#introTwo').html("<h3>this is 4.2</h3>");
+}
+
+function uic(){
+$('#introTwo').html("<h3>this is 4.3</h3>");
+}
+
+function uid(){
+$('#introTwo').html("<h3>this is 4.4</h3>");
+}
+
+function uie(){
+$('#introTwo').html("<h3>this is 4.5</h3>");
+}
+
+</script>
+
+</head>
+  
+<body>
+
+<div class="entry-header">
+  <div class="container">
+    <h2 class="entry-title" itemprop="name">Puran Zhang</h2>
+  </div>
+</div>
+
+<article id="main" role="main" class="hentry yue" itemscope itemtype="http://schema.org/Article">
+<div class="entry-content container" itemprop="articleBody">
+<h4>Halo, this is Puran.</h4>
+
+<table id = "questions" style="width:100%">
+  <tr>
+    <td><button input id="purePlay" type="button" onclick="purePlay()">我。</button></td>
+  </tr>
+  <tr>
+    <td><button input id="pokeDex" type="button" onclick="pokeDex()">是。</button></td>
+  </tr>
+  <tr>
+    <td><button input id="takeGym" type="button" onclick="takeGym()">张</button></td>
+  </tr>
+  <tr>
+    <td><button input id="useItems" type="button" onclick="useItems()">普然</button></td>
+  </tr>
+</table>
+
+<div id = "introduction">
+</div>
+
+<table id = "eventTable" style="width:80%">
+<tbody>
+</tbody>
+</table>
+
+<div id = "introTwo">
+</div>
+
+<br><br><br>
+<a href = "/">back to the homepage</a>
+
+</div>
+</article>
+</body>
+</html>
