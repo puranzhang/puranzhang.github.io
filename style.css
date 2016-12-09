@@ -15,8 +15,8 @@
 }
 #itsycalmenuextra{background:url(/itsycal/menuextra.gif) no-repeat;width:500px;height:60px;background-size:500px 60px}
 #snakebanner{background:url(/snake/snakebanner.png) no-repeat;width:500px;height:100px;background-size:500px 100px}
-#snkbanner{background:url(/snk/snkbanner.png) no-repeat;width:500px;height:108px;background-size:500px 108px}
-#snkbanner2{background:url(/snk/snkbanner2.gif) no-repeat;width:500px;height:280px;background-size:500px 280px}
+#ktoebanner{background:url(/snk/snkbanner.png) no-repeat;width:500px;height:108px;background-size:500px 108px}
+#ktoebanner2{background:url(/snk/snkbanner2.gif) no-repeat;width:500px;height:280px;background-size:500px 280px}
 #ttbanner{background:url(/tickertool/ttbanner.png) no-repeat;width:500px;height:90px;background-size:500px 90px}
 #lonelyheartbanner{background:url(/lonelyheart/lonelyheartbanner.png) no-repeat;width:500px;height:100px;background-size:500px 100px}
 #lonelyheartbanner2{background:url(/lonelyheart/lonelyheartbanner2.gif) no-repeat;width:500px;height:100px;background-size:500px 100px}
@@ -28,4 +28,4 @@
     height:108px;
     background-size:500px 108px
 }
-#snkbanner2{background:url(/snk/snkbanner2@2x.gif) no-repeat;width:500px;height:280px;background-size:500px 280px}#ttbanner{background:url(/tickertool/ttbanner@2x.png) no-repeat;width:500px;height:90px;background-size:500px 90px}#lonelyheartbanner{background:url(/lonelyheart/lonelyheartbanner@2x.png) no-repeat;width:500px;height:100px;background-size:500px 100px}#lonelyheartbanner2{background:url(/lonelyheart/lonelyheartbanner2@2x.gif) no-repeat;width:500px;height:100px;background-size:500px 100px}}@media screen and (max-width: 552px){#bigbox{margin:15px auto;margin-bottom:20px;width:90%}#itsycalbanner,#itsycalbanner2,#itsycalmenuextra{background-position:right center;width:100%}#snakebanner,#snkbanner,#snkbanner2,#ttbanner,#lonelyheartbanner,#lonelyheartbanner2{background-position:left center;width:100%}}
+#ktoebanner2{background:url(/snk/snkbanner2@2x.gif) no-repeat;width:500px;height:280px;background-size:500px 280px}#ttbanner{background:url(/tickertool/ttbanner@2x.png) no-repeat;width:500px;height:90px;background-size:500px 90px}#lonelyheartbanner{background:url(/lonelyheart/lonelyheartbanner@2x.png) no-repeat;width:500px;height:100px;background-size:500px 100px}#lonelyheartbanner2{background:url(/lonelyheart/lonelyheartbanner2@2x.gif) no-repeat;width:500px;height:100px;background-size:500px 100px}}@media screen and (max-width: 552px){#bigbox{margin:15px auto;margin-bottom:20px;width:90%}#itsycalbanner,#itsycalbanner2,#itsycalmenuextra{background-position:right center;width:100%}#snakebanner,#ktoebanner,#ktoebanner2,#ttbanner,#lonelyheartbanner,#lonelyheartbanner2{background-position:left center;width:100%}}
