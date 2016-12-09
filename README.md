@@ -1,1 +1,1 @@
-[puranzhang.github.io](https://puranzhang.github.io)
+Please direct to [puranzhang.me](http://puranzhang.me).
