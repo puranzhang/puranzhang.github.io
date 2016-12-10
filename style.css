@@ -18,6 +18,11 @@ body, button, td, th {
 	color: #333;
 	-webkit-text-size-adjust: none
 }
+/*
+p {
+    text-align: justify
+}
+*/
 a {
 	color: #68d
 }
