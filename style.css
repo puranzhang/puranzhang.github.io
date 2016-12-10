@@ -132,13 +132,13 @@ nav ul li {
 	margin-bottom: 50px;
 	width: 500px
 }
-#itsycalbanner {
-	background: url(/itsycal/itsycalbanner.png) no-repeat;
+#rpgbanner {
+	background: url(static/rpg@2x.png) no-repeat;
 	width: 500px;
 	height: 108px;
 	background-size: 500px 108px
 }
-#itsycalbanner2 {
+#rpgbanner2 {
 	background: url(/itsycal/itsycalbanner2.png) no-repeat;
 	width: 500px;
 	height: 410px;
@@ -192,13 +192,13 @@ nav ul li {
 	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2)
 }
 @media screen and (min-resolution: 1.5dppx), screen and (-webkit-min-device-pixel-ratio: 1.5) {
-	#itsycalbanner {
-		background: url(/itsycal/itsycalbanner@2x.png) no-repeat;
+	#rpgbanner {
+		background: url(/static/rpg@2x.png) no-repeat;
 		width: 500px;
 		height: 108px;
 		background-size: 500px 108px
 	}
-	#itsycalbanner2 {
+	#rpgbanner2 {
 		background: url(/itsycal/itsycalbanner2@2x.png) no-repeat;
 		width: 500px;
 		height: 410px;
@@ -253,7 +253,7 @@ nav ul li {
 		margin-bottom: 20px;
 		width: 90%
 	}
-	#itsycalbanner, #itsycalbanner2, #itsycalmenuextra {
+	#rpgbanner, #rpgbanner2, #itsycalmenuextra {
 		background-position: right center;
 		width: 100%
 	}
