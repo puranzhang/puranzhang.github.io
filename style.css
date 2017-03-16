@@ -161,6 +161,18 @@ nav ul li {
 	height: 280px;
 	background-size: 500px 280px
 }
+#moviebanner {
+	background: url(/static/movie@2x.png) no-repeat;
+	width: 500px;
+	height: 108px;
+	background-size: 500px 108px
+}
+#moviebanner2 {
+	background: url(/static/movie@2x.png) no-repeat;
+	width: 500px;
+	height: 280px;
+	background-size: 500px 280px
+}
 
 @media screen and (min-resolution: 1.5dppx), screen and (-webkit-min-device-pixel-ratio: 1.5) {
 	#rpgbanner {
@@ -187,6 +199,18 @@ nav ul li {
 		height: 280px;
 		background-size: 500px 280px
 	}
+    #moviebanner {
+        background: url(/static/movie@2x.png) no-repeat;
+        width: 500px;
+        height: 108px;
+        background-size: 500px 108px
+    }
+    #moviebanner2 {
+        background: url(/static/movie@2x.png) no-repeat;
+        width: 500px;
+        height: 280px;
+        background-size: 500px 280px
+    }
 }
 @media screen and (max-width: 552px) {
 	#bigbox {
@@ -199,6 +223,10 @@ nav ul li {
 		width: 100%
 	}
 	#ktoebanner, #ktoebanner2 {
+		background-position: left center;
+		width: 100%
+	}
+    #moviebanner, #moviebanner2 {
 		background-position: left center;
 		width: 100%
 	}
