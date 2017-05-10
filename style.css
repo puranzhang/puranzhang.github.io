@@ -138,13 +138,13 @@ nav ul li {
 	width: 500px
 }
 #rpgbanner {
-	background: url(static/rpg@2x.png) no-repeat;
+	background: url(static/rpg@2x.svg) no-repeat;
 	width: 500px;
 	height: 108px;
 	background-size: 500px 108px
 }
 #rpgbanner2 {
-	background: url(static/rpg@2x.png) no-repeat;
+	background: url(static/rpg@2x.svg) no-repeat;
 	width: 500px;
 	height: 410px;
 	background-size: 500px 410px
@@ -162,13 +162,13 @@ nav ul li {
 	background-size: 500px 280px
 }
 #moviebanner {
-	background: url(/static/movie@2x.png) no-repeat;
+	background: url(/static/movie@2x.svg) no-repeat;
 	width: 500px;
 	height: 108px;
 	background-size: 500px 108px
 }
 #moviebanner2 {
-	background: url(/static/movie@2x.png) no-repeat;
+	background: url(/static/movie@2x.svg) no-repeat;
 	width: 500px;
 	height: 280px;
 	background-size: 500px 280px
@@ -176,13 +176,13 @@ nav ul li {
 
 @media screen and (min-resolution: 1.5dppx), screen and (-webkit-min-device-pixel-ratio: 1.5) {
 	#rpgbanner {
-		background: url(/static/rpg@2x.png) no-repeat;
+		background: url(/static/rpg@2x.svg) no-repeat;
 		width: 500px;
 		height: 108px;
 		background-size: 500px 108px
 	}
 	#rpgbanner2 {
-		background: url(/static/rpg@2x.png) no-repeat;
+		background: url(/static/rpg@2x.svg) no-repeat;
 		width: 500px;
 		height: 410px;
 		background-size: 500px 410px
@@ -200,13 +200,13 @@ nav ul li {
 		background-size: 500px 280px
 	}
     #moviebanner {
-        background: url(/static/movie@2x.png) no-repeat;
+        background: url(/static/movie@2x.svg) no-repeat;
         width: 500px;
         height: 108px;
         background-size: 500px 108px
     }
     #moviebanner2 {
-        background: url(/static/movie@2x.png) no-repeat;
+        background: url(/static/movie@2x.svg) no-repeat;
         width: 500px;
         height: 280px;
         background-size: 500px 280px

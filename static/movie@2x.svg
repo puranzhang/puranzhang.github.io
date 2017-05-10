@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1000px" height="216px" viewBox="0 0 1000 216" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>movie banner</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1000" height="216"></rect>
+        <circle id="path-3" cx="58" cy="154" r="95"></circle>
+        <filter x="-3.7%" y="-2.6%" width="107.4%" height="107.4%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <text id="text-5" font-family="Palatino-Roman, Palatino" font-size="20" font-weight="normal" letter-spacing="0.00399999972" fill="#000000">
+            <tspan x="294" y="65">Family</tspan>
+        </text>
+        <filter x="-8.1%" y="-19.2%" width="116.2%" height="153.8%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <text id="text-7" font-family="Palatino-Roman, Palatino" font-size="18" font-weight="normal" letter-spacing="0.00359999994" fill="#000000">
+            <tspan x="163" y="19">Sci-Fi</tspan>
+        </text>
+        <filter x="-13.0%" y="-20.8%" width="125.9%" height="158.3%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <text id="text-9" font-family="Palatino-Roman, Palatino" font-size="28" font-weight="normal" letter-spacing="0.0055999998" fill="#000000">
+            <tspan x="304" y="126">Romance</tspan>
+        </text>
+        <filter x="-4.6%" y="-13.5%" width="109.2%" height="137.8%" filterUnits="objectBoundingBox" id="filter-10">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <text id="text-11" font-family="Palatino-Roman, Palatino" font-size="32" font-weight="normal" letter-spacing="0.00639999984" fill="#000000">
+            <tspan x="46" y="46">Fantasy</tspan>
+        </text>
+        <filter x="-6.3%" y="-11.9%" width="112.6%" height="133.3%" filterUnits="objectBoundingBox" id="filter-12">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="movie-banner">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Rectangle" fill="#A0DB8E" opacity="0.74926404" xlink:href="#path-1"></use>
+            <g id="Oval" mask="url(#mask-2)">
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                <use fill="#F6A623" fill-rule="evenodd" xlink:href="#path-3"></use>
+            </g>
+            <path d="M152.5,154 L155.5,154 L155.5,152 L152.5,152 L152.5,154 Z M158.5,154 L161.5,154 L161.5,152 L158.5,152 L158.5,154 Z M164.5,154 L167.5,154 L167.5,152 L164.5,152 L164.5,154 Z M170.5,154 L173.5,154 L173.5,152 L170.5,152 L170.5,154 Z M176.5,154 L179.5,154 L179.5,152 L176.5,152 L176.5,154 Z M182.5,154 L185.5,154 L185.5,152 L182.5,152 L182.5,154 Z M188.5,154 L191.5,154 L191.5,152 L188.5,152 L188.5,154 Z M194.5,154 L197.5,154 L197.5,152 L194.5,152 L194.5,154 Z M200.5,154 L203.5,154 L203.5,152 L200.5,152 L200.5,154 Z M206.5,154 L209.5,154 L209.5,152 L206.5,152 L206.5,154 Z M212.5,154 L215.5,154 L215.5,152 L212.5,152 L212.5,154 Z M218.5,154 L221.5,154 L221.5,152 L218.5,152 L218.5,154 Z M224.5,154 L227.5,154 L227.5,152 L224.5,152 L224.5,154 Z M230.5,154 L233.5,154 L233.5,152 L230.5,152 L230.5,154 Z M236.5,154 L239.5,154 L239.5,152 L236.5,152 L236.5,154 Z M242.5,154 L245.5,154 L245.5,152 L242.5,152 L242.5,154 Z M248.5,154 L251.5,154 L251.5,152 L248.5,152 L248.5,154 Z M254.5,154 L257.5,154 L257.5,152 L254.5,152 L254.5,154 Z M260.5,154 L263.5,154 L263.5,152 L260.5,152 L260.5,154 Z M266.5,154 L269.5,154 L269.5,152 L266.5,152 L266.5,154 Z M272.5,154 L275.5,154 L275.5,152 L272.5,152 L272.5,154 Z M278.5,154 L281.5,154 L281.5,152 L278.5,152 L278.5,154 Z M284.5,154 L287.5,154 L287.5,152 L284.5,152 L284.5,154 Z M290.5,154 L293.5,154 L293.5,152 L290.5,152 L290.5,154 Z M296.5,154 L299.5,154 L299.5,152 L296.5,152 L296.5,154 Z M302.5,154 L305.5,154 L305.5,152 L302.5,152 L302.5,154 Z M308.5,154 L311.5,154 L311.5,152 L308.5,152 L308.5,154 Z M314.5,154 L317.5,154 L317.5,152 L314.5,152 L314.5,154 Z M320.5,154 L323.5,154 L323.5,152 L320.5,152 L320.5,154 Z M326.5,154 L329.5,154 L329.5,152 L326.5,152 L326.5,154 Z M332.5,154 L335.5,154 L335.5,152 L332.5,152 L332.5,154 Z M338.5,154 L341.5,154 L341.5,152 L338.5,152 L338.5,154 Z M344.5,154 L347.5,154 L347.5,152 L344.5,152 L344.5,154 Z M350.5,154 L353.5,154 L353.5,152 L350.5,152 L350.5,154 Z M356.5,154 L359.5,154 L359.5,152 L356.5,152 L356.5,154 Z M362.5,154 L365.5,154 L365.5,152 L362.5,152 L362.5,154 Z M368.5,154 L371.5,154 L371.5,152 L368.5,152 L368.5,154 Z M374.5,154 L377.5,154 L377.5,152 L374.5,152 L374.5,154 Z M380.5,154 L383.5,154 L383.5,152 L380.5,152 L380.5,154 Z M386.5,154 L389.5,154 L389.5,152 L386.5,152 L386.5,154 Z M392.5,154 L395.5,154 L395.5,152 L392.5,152 L392.5,154 Z M398.5,154 L401.5,154 L401.5,152 L398.5,152 L398.5,154 Z M404.5,154 L407.5,154 L407.5,152 L404.5,152 L404.5,154 Z M410.5,154 L413.5,154 L413.5,152 L410.5,152 L410.5,154 Z M416.5,154 L419.5,154 L419.5,152 L416.5,152 L416.5,154 Z M422.5,154 L425.5,154 L425.5,152 L422.5,152 L422.5,154 Z M428.5,154 L431.5,154 L431.5,152 L428.5,152 L428.5,154 Z M434.5,154 L437.5,154 L437.5,152 L434.5,152 L434.5,154 Z M440.5,154 L443.5,154 L443.5,152 L440.5,152 L440.5,154 Z M446.5,154 L449.5,154 L449.5,152 L446.5,152 L446.5,154 Z M452.5,154 L455.5,154 L455.5,152 L452.5,152 L452.5,154 Z M458.5,154 L461.5,154 L461.5,152 L458.5,152 L458.5,154 Z M464.5,154 L467.5,154 L467.5,152 L464.5,152 L464.5,154 Z M470.5,154 L473.5,154 L473.5,152 L470.5,152 L470.5,154 Z M476.5,154 L479.5,154 L479.5,152 L476.5,152 L476.5,154 Z M482.5,154 L485.5,154 L485.5,152 L482.5,152 L482.5,154 Z M488.5,154 L491.5,154 L491.5,152 L488.5,152 L488.5,154 Z" id="Line" fill="#58906C" fill-rule="nonzero" opacity="0.502774004" mask="url(#mask-2)"></path>
+            <text id="1926---1935" opacity="0.646173007" mask="url(#mask-2)" font-family="Palatino-Roman, Palatino" font-size="14" font-weight="normal" letter-spacing="0.0027999999" fill="#000000">
+                <tspan x="24" y="39">1926 - 1935</tspan>
+            </text>
+            <g id="word-cloud" mask="url(#mask-2)">
+                <g transform="translate(481.000000, 45.000000)">
+                    <text id="Drama" opacity="0.15" font-family="Palatino-Roman, Palatino" font-size="70" font-weight="normal" letter-spacing="0.0139999995">
+                        <tspan x="100" y="93" fill="#000000">Drama</tspan>
+                    </text>
+                    <g id="Family" opacity="0.55" fill-opacity="1">
+                        <use fill="#000000" filter="url(#filter-6)" xlink:href="#text-5"></use>
+                        <use fill="#000000" xlink:href="#text-5"></use>
+                    </g>
+                    <g id="Sci-Fi" opacity="0.646173007" fill-opacity="1">
+                        <use fill="#000000" filter="url(#filter-8)" xlink:href="#text-7"></use>
+                        <use fill="#000000" xlink:href="#text-7"></use>
+                    </g>
+                    <text id="Adventure" opacity="0.4" font-family="Palatino-Roman, Palatino" font-size="34" font-weight="normal" letter-spacing="0.00680000009">
+                        <tspan x="0" y="125" fill="#000000">Adventure</tspan>
+                    </text>
+                    <g id="Romance" opacity="0.350713315" fill-opacity="1">
+                        <use fill="#000000" filter="url(#filter-10)" xlink:href="#text-9"></use>
+                        <use fill="#000000" xlink:href="#text-9"></use>
+                    </g>
+                    <g id="Fantasy" opacity="0.55" fill-opacity="1">
+                        <use fill="#000000" filter="url(#filter-12)" xlink:href="#text-11"></use>
+                        <use fill="#000000" xlink:href="#text-11"></use>
+                    </g>
+                    <text id="Action" opacity="0.352072011" font-family="Palatino-Roman, Palatino" font-size="34" font-weight="normal" letter-spacing="0.00679999962">
+                        <tspan x="193" y="36" fill="#000000">Action</tspan>
+                    </text>
+                    <text id="Comedy" opacity="0.22" font-family="Palatino-Roman, Palatino" font-size="54" font-weight="normal" letter-spacing="0.0107999993">
+                        <tspan x="166" y="162" fill="#000000">Comedy</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
