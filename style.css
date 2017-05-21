@@ -1,261 +1,262 @@
 @font-face {
-	font-family: 'msr500';
-	src: url("/static/fonts/MuseoSansRounded-500-webfont.eot");
-	src: url("/static/fonts/MuseoSansRounded-500-webfont.eot?#iefix") format("embedded-opentype"), url("/static/fonts/MuseoSansRounded-500-webfont.woff2") format("woff2"), url("/static/fonts/MuseoSansRounded-500-webfont.woff") format("woff"), url("/static/fonts/MuseoSansRounded-500-webfont.ttf") format("truetype"), url("/static/fonts/MuseoSansRounded-500-webfont.svg") format("svg");
-	font-weight: normal;
-	font-style: normal
+  font-family: 'msr500';
+  src: url("/static/fonts/MuseoSansRounded-500-webfont.eot");
+  src: url("/static/fonts/MuseoSansRounded-500-webfont.eot?#iefix") format("embedded-opentype"), url("/static/fonts/MuseoSansRounded-500-webfont.woff2") format("woff2"), url("/static/fonts/MuseoSansRounded-500-webfont.woff") format("woff"), url("/static/fonts/MuseoSansRounded-500-webfont.ttf") format("truetype"), url("/static/fonts/MuseoSansRounded-500-webfont.svg") format("svg");
+  font-weight: normal;
+  font-style: normal
 }
 * {
-	box-sizing: border-box
+  box-sizing: border-box
 }
 html, body {
-	margin: 0px
+  margin: 0px
 }
 body, button, td, th {
-	font: 16px "msr500", "Lucida Grande", Helvetica, Arial, sans-serif;
-	line-height: 150%;
-	background: #fefefe;
-	color: #333;
-	-webkit-text-size-adjust: none
+  font: 16px "msr500", "Lucida Grande", Helvetica, Arial, sans-serif;
+  line-height: 150%;
+  background: #fefefe;
+  color: #333;
+  -webkit-text-size-adjust: none
 }
+
 /*
 p {
     text-align: justify
 }
 */
+
 a {
-	color: #68d
+  color: #68d
 }
 .btn {
-	color: #68d;
-	margin-right: -4px;
-	margin-left: -4px;
-	padding: 4px;
-	text-decoration: none;
-	border: none;
-	cursor: pointer
+  color: #68d;
+  margin-right: -4px;
+  margin-left: -4px;
+  padding: 4px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer
 }
 a.bluebtn, button.bluebtn {
-	display: inline-block;
-	padding: 8px 8px 6px 8px;
-	background-color: #56F;
-	color: #FFF;
-	text-decoration: none;
-	margin-bottom: 10px;
-	border-radius: 4px;
-	border: 0;
-	outline: none;
-	cursor: pointer;
-	box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.35)
+  display: inline-block;
+  padding: 8px 8px 6px 8px;
+  background-color: #56F;
+  color: #FFF;
+  text-decoration: none;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.35)
 }
 h1, h2 {
-	margin-top: 0px;
-	font-weight: normal;
-	letter-spacing: 1px
+  margin-top: 0px;
+  font-weight: normal;
+  letter-spacing: 1px
 }
 h1 a, h2 a {
-	margin-left: -4px;
-	padding: 4px;
-	color: #000;
-	text-decoration: none;
-	border: none
+  margin-left: -4px;
+  padding: 4px;
+  color: #000;
+  text-decoration: none;
+  border: none
 }
 h2 {
-	font-size: 1.4em
+  font-size: 1.4em
 }
 h2 a {
-	color: #68d
+  color: #68d
 }
 h1 a:hover, h2 a:hover, .btn:hover {
-	background: #edf6fc;
-	border-radius: 4px
+  background: #edf6fc;
+  border-radius: 4px
 }
 hr {
-	margin-left: -4px;
-	margin-right: -4px;
-	background: #ccc;
-	border: 0px;
-	height: 1px;
-	clear: both
+  margin-left: -4px;
+  margin-right: -4px;
+  background: #ccc;
+  border: 0px;
+  height: 1px;
+  clear: both
 }
 br {
-	clear: both
+  clear: both
 }
 ul {
-	padding-left: 20px
+  padding-left: 20px
 }
 code {
-	padding: 1px 3px;
-	background-color: rgba(0, 0, 0, 0.05);
-	border: 1px solid rgba(0, 0, 0, 0.08);
-	border-radius: 3px
+  padding: 1px 3px;
+  background-color: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 3px
 }
 nav {
-	padding-bottom: 7px
+  padding-bottom: 7px
 }
 nav ul {
-	margin: 0;
-	padding: 0
+  margin: 0;
+  padding: 0
 }
 nav ul li {
-	margin: 8px;
-	list-style-type: none;
-	display: inline-block
+  margin: 8px;
+  list-style-type: none;
+  display: inline-block
 }
 .hangingindent {
-	padding-left: 22px;
-	text-indent: -22px
+  padding-left: 22px;
+  text-indent: -22px
 }
 .lighttext {
-	color: #aaa
+  color: #aaa
 }
 .date {
-	margin: 0px;
-	padding: 2px 0px;
-	color: #999
+  margin: 0px;
+  padding: 2px 0px;
+  color: #999
 }
 .fullwidthtable {
-	width: 100%
+  width: 100%
 }
 .fullwidthtable td {
-	width: 50%
+  width: 50%
 }
 .basictable {
-	border: 2px solid #ccc;
-	border-collapse: collapse
+  border: 2px solid #ccc;
+  border-collapse: collapse
 }
 .basictable td, .basictable th {
-	padding: 6px 8px;
-	border: 2px solid #ccc
+  padding: 6px 8px;
+  border: 2px solid #ccc
 }
 .basictable th {
-	text-align: left;
-	background: #eee
+  text-align: left;
+  background: #eee
 }
 #bigbox {
-	margin: 30px auto;
-	margin-bottom: 50px;
-	width: 500px
+  margin: 30px auto;
+  margin-bottom: 50px;
+  width: 500px
 }
 #rpgbanner {
-	background: url(static/rpg@2x.svg) no-repeat;
-	width: 500px;
-	height: 108px;
-	background-size: 500px 108px
+  background: url(static/rpg@2x.svg) no-repeat;
+  width: 500px;
+  height: 108px;
+  background-size: 500px 108px
 }
 #rpgbanner2 {
-	background: url(static/rpg@2x.svg) no-repeat;
-	width: 500px;
-	height: 410px;
-	background-size: 500px 410px
+  background: url(static/rpg@2x.svg) no-repeat;
+  width: 500px;
+  height: 410px;
+  background-size: 500px 410px
 }
 #ktoebanner {
-	background: url(/static/ktoe@2x.png) no-repeat;
-	width: 500px;
-	height: 108px;
-	background-size: 500px 108px
+  background: url(/static/ktoe@2x.png) no-repeat;
+  width: 500px;
+  height: 108px;
+  background-size: 500px 108px
 }
 #ktoebanner2 {
-	background: url(/static/ktoe@2x.png) no-repeat;
-	width: 500px;
-	height: 280px;
-	background-size: 500px 280px
+  background: url(/static/ktoe@2x.png) no-repeat;
+  width: 500px;
+  height: 280px;
+  background-size: 500px 280px
 }
 #moviebanner {
-	background: url(/static/movie@2x.svg) no-repeat;
-	width: 500px;
-	height: 108px;
-	background-size: 500px 108px
+  background: url(/static/movie@2x.svg) no-repeat;
+  width: 500px;
+  height: 108px;
+  background-size: 500px 108px
 }
 #moviebanner2 {
-	background: url(/static/movie@2x.svg) no-repeat;
-	width: 500px;
-	height: 280px;
-	background-size: 500px 280px
+  background: url(/static/movie@2x.svg) no-repeat;
+  width: 500px;
+  height: 280px;
+  background-size: 500px 280px
 }
 #rabblingbanner {
-	background: url(/static/rabbling@2x.svg) no-repeat;
-	width: 500px;
-	height: 108px;
-	background-size: 500px 108px
+  background: url(/static/rabbling@2x.svg) no-repeat;
+  width: 500px;
+  height: 108px;
+  background-size: 500px 108px
 }
 #rabblingbanner2 {
-	background: url(/static/rabbling@2x.svg) no-repeat;
-	width: 500px;
-	height: 280px;
-	background-size: 500px 280px
+  background: url(/static/rabbling@2x.svg) no-repeat;
+  width: 500px;
+  height: 280px;
+  background-size: 500px 280px
 }
-
 @media screen and (min-resolution: 1.5dppx), screen and (-webkit-min-device-pixel-ratio: 1.5) {
-	#rpgbanner {
-		background: url(/static/rpg@2x.svg) no-repeat;
-		width: 500px;
-		height: 108px;
-		background-size: 500px 108px
-	}
-	#rpgbanner2 {
-		background: url(/static/rpg@2x.svg) no-repeat;
-		width: 500px;
-		height: 410px;
-		background-size: 500px 410px
-	}
-	#ktoebanner {
-		background: url(/static/ktoe@2x.png) no-repeat;
-		width: 500px;
-		height: 108px;
-		background-size: 500px 108px
-	}
-	#ktoebanner2 {
-		background: url(/static/ktoe@2x.png) no-repeat;
-		width: 500px;
-		height: 280px;
-		background-size: 500px 280px
-	}
-    #moviebanner {
-        background: url(/static/movie@2x.svg) no-repeat;
-        width: 500px;
-        height: 108px;
-        background-size: 500px 108px
-    }
-    #moviebanner2 {
-        background: url(/static/movie@2x.svg) no-repeat;
-        width: 500px;
-        height: 280px;
-        background-size: 500px 280px
-    }
-    #rabblingbanner {
-        background: url(/static/rabbling@2x.svg) no-repeat;
-        width: 500px;
-        height: 108px;
-        background-size: 500px 108px
-    }
-    #rabblingbanner2 {
-        background: url(/static/rabbling@2x.svg) no-repeat;
-        width: 500px;
-        height: 280px;
-        background-size: 500px 280px
-    }
+  #rpgbanner {
+    background: url(/static/rpg@2x.svg) no-repeat;
+    width: 500px;
+    height: 108px;
+    background-size: 500px 108px
+  }
+  #rpgbanner2 {
+    background: url(/static/rpg@2x.svg) no-repeat;
+    width: 500px;
+    height: 410px;
+    background-size: 500px 410px
+  }
+  #ktoebanner {
+    background: url(/static/ktoe@2x.png) no-repeat;
+    width: 500px;
+    height: 108px;
+    background-size: 500px 108px
+  }
+  #ktoebanner2 {
+    background: url(/static/ktoe@2x.png) no-repeat;
+    width: 500px;
+    height: 280px;
+    background-size: 500px 280px
+  }
+  #moviebanner {
+    background: url(/static/movie@2x.svg) no-repeat;
+    width: 500px;
+    height: 108px;
+    background-size: 500px 108px
+  }
+  #moviebanner2 {
+    background: url(/static/movie@2x.svg) no-repeat;
+    width: 500px;
+    height: 280px;
+    background-size: 500px 280px
+  }
+  #rabblingbanner {
+    background: url(/static/rabbling@2x.svg) no-repeat;
+    width: 500px;
+    height: 108px;
+    background-size: 500px 108px
+  }
+  #rabblingbanner2 {
+    background: url(/static/rabbling@2x.svg) no-repeat;
+    width: 500px;
+    height: 280px;
+    background-size: 500px 280px
+  }
 }
 @media screen and (max-width: 552px) {
-	#bigbox {
-		margin: 15px auto;
-		margin-bottom: 20px;
-		width: 90%
-	}
-	#rpgbanner, #rpgbanner2 {
-		background-position: right center;
-		width: 100%
-	}
-	#ktoebanner, #ktoebanner2 {
-		background-position: left center;
-		width: 100%
-	}
-    #moviebanner, #moviebanner2 {
-		background-position: left center;
-		width: 100%
-	}
-    #rabblingbanner, #rabblingbanner2 {
-		background-position: left center;
-		width: 100%
-	}
+  #bigbox {
+    margin: 15px auto;
+    margin-bottom: 20px;
+    width: 90%
+  }
+  #rpgbanner, #rpgbanner2 {
+    background-position: right center;
+    width: 100%
+  }
+  #ktoebanner, #ktoebanner2 {
+    background-position: left center;
+    width: 100%
+  }
+  #moviebanner, #moviebanner2 {
+    background-position: left center;
+    width: 100%
+  }
+  #rabblingbanner, #rabblingbanner2 {
+    background-position: left center;
+    width: 100%
+  }
 }
