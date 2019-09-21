@@ -5,6 +5,13 @@
   font-weight: normal;
   font-style: normal
 }
+
+/* Define variables for Light Mode in this selector */
+:root {
+  --body-background: #fefefe;
+  --text-color: #333;
+}
+
 * {
   box-sizing: border-box
 }
@@ -14,8 +21,8 @@ html, body {
 body, button, td, th {
   font: 16px "msr500", "Lucida Grande", Helvetica, Arial, sans-serif;
   line-height: 150%;
-  background: #fefefe;
-  color: #333;
+  background: var(--body-background);
+  color: var(--text-color);
   -webkit-text-size-adjust: none
 }
 
@@ -285,6 +292,16 @@ nav ul li {
     background-size: 500px 280px
   }
 }
+
+/* This media query matches Dark Mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Override the Light Mode values */
+    --body-background: #111;
+    --text-color: #eee;
+  }
+}
+
 @media screen and (max-width: 552px) {
   #bigbox {
     margin: 15px auto;
