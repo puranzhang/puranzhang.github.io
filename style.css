@@ -10,6 +10,7 @@
 :root {
   --body-background: #fefefe;
   --text-color: #333;
+  --heading-color-hover: #edf6fc;
 }
 
 * {
@@ -76,7 +77,7 @@ h2 a {
   color: #68d
 }
 h1 a:hover, h2 a:hover, .btn:hover {
-  background: #edf6fc;
+  background: var(--heading-color-hover);
   border-radius: 4px
 }
 hr {
@@ -299,6 +300,7 @@ nav ul li {
     /* Override the Light Mode values */
     --body-background: #111;
     --text-color: #eee;
+    --heading-color-hover: #5a5d5f;
   }
 }
 
