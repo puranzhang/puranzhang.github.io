@@ -1,1 +1,1 @@
-Please direct to [puranzhang.me](https://puranzhang.me).
+Please (re)direct to [puranzhang.me](https://puranzhang.me).
